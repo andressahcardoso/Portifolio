@@ -1,0 +1,34 @@
+.project_title {
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+section {
+    padding-top: 2.5%;
+}
+
+h2 {
+    padding-top: 2.5%;
+    padding-left: 4vh;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9vh; 
+}
+
+div .image {
+    width: 70%;
+    height: 90%;
+    border: solid 2px #50c1d2;
+}
+
+.back {
+    padding-left: 9vh; 
+}
+
+#img_back {
+    width: 33vh;
+    height: 100%;
+}

@@ -6,28 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='home.css'> 
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'> 
+    <link rel='stylesheet' type='text/css' media='screen' href='home.css'>     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
 
     <header>
         <h1>Portifólio</h1>
-        <nav>
-            <a href="">Home</a>
-            <a href="">Projetos</a>
+        <nav class="nav_options">
+            <a href="home.html">Home</a>
+            <a href="projects.html" class="options">Projetos</a>
             <a href="">Contatos</a>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <img src="" alt="Foto de Perfil">
+
+    <section class="profile">
+        <div class="image">
+            <img src="assets/profile_picture.jpg" class="profile_picture" alt="Foto de Perfil">
+        </div>
+
+        <div class="about">
             <h2>Andressa Hensel Cardoso</h2>
-            <p>Descrição</p>
-        </section>
-        <section></section>
-    </main>
+            <br>
+            <p>Olá, meu nome é Andressa, tenho 18 anos e estou no terceiro ano do Ensino Médio Técnico de Informática para Informática no Senac São Leopoldo, Rio Grande do Sul.</p>
+            <p>No meu tempo livre eu adoro escutar música e ir fazendo outras atividades como andar de bicicleta ou skate. Também gosto muito de ler livros tanto de fantasia como livros que falem sobre tecnologia, um novo tipo de leitura que acabei descubrindo em 2022 durante a construção do trabalho de Projeto Profissional desenvolvido na escola.</p>
+            <br>
+            <br>
+            <p class="glink"><i class="fa fa-brands fa-github"></i> <a href="https://github.com/andressahcardoso">Github</a></p>
+        </div>
+    </section>
+       
+    <br>
+    <h2>Habilidades</h2>
+    <hr>
+
+    <section class="skills">
+        <div>
+            <h3>SoftSkills</h3>
+            <br>
+            <ul>
+                <li>Atitude positiva</li>
+                <li>Autoconfiança</li>
+                <li>Gestão do tempo</li>
+                <li>Lidar com pressão</li>
+                <li>Solução de problemas</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </div>
+        <div>
+            <h3>HardSkills</h3>
+            <br>
+            <ul>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>Typescript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <br>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>HTML - Revisão</p>
+    </footer>
+
     
 </body>
 </html>
