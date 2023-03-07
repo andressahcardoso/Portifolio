@@ -1,0 +1,52 @@
+.forms {
+	display: flex;
+    justify-content: center; /* ALinhar no centro - HORIZONTAL */
+    align-content: center; /* Alinhar no centro - VERTICAL */
+    flex-wrap: wrap;  /* Alinhar no centro - VERTICAL */
+
+    border: 1px solid #ccc;
+    height: 83vh;
+}
+
+.forms label {
+    display: block; /* Manter o label sobre o input */
+    margin-top: 2vh;
+    font-weight: 500;
+}
+
+.forms input {
+    border-radius: 10px;
+    height: 4vh;
+    width: 60vh;
+    border: solid 1px #50c1d2;
+    margin-top: .8vh;
+    padding: 2vh;
+}
+
+.forms input:focus {
+    background-color: #abe2eb;
+    outline: #50c1d2;
+    color: black;
+}
+
+#menssage {
+    height: 10vh;
+}
+
+.button {
+    border-radius: 10px;
+    height: 5vh;
+    width: 60vh;
+    margin-top: 4vh;
+    border: solid 1px #50c1d2;
+    background-color: #50c1d2;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+#footer {
+    margin-top: 0px;
+}
