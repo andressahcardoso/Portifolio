@@ -4,15 +4,22 @@
 }
 
 
-/* Images */
+/* Category title */
 
-section {
-    padding-top: 2.5%;
+.subtitle {
+    border-bottom: solid 1px rgba(142, 142, 142, 0.633);
 }
 
 h2 {
     padding-top: 2.5%;
     padding-left: 4vh;
+}
+
+
+/* Images */
+
+section {
+    padding-top: 2.5%;
 }
 
 .front {
@@ -34,4 +41,8 @@ div .image {
 #img_back {
     width: 33vh;
     height: 100%;
+}
+
+.mobile {
+    padding-left: 9vh; 
 }

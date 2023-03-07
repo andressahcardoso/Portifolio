@@ -29,10 +29,16 @@ header {
     text-decoration: none
 }
 
+.nav_options a:hover {
+    font-size: 20px;
+    transition: .5s;
+}
+
 .options {
     border-left: solid 2px white;
     border-right: solid 2px white;
 }
+
 
 /* Footer */
 
