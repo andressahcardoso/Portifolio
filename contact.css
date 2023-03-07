@@ -5,7 +5,7 @@
     flex-wrap: wrap;  /* Alinhar no centro - VERTICAL */
 
     border: 1px solid #ccc;
-    height: 83vh;
+    height: 81vh;
 }
 
 .forms label {
@@ -30,9 +30,19 @@
 }
 
 #menssage {
+    border-radius: 10px;
     height: 10vh;
+    width: 60vh;
+    border: solid 1px #50c1d2;
+    margin-top: .8vh;
+    padding: 2vh;
 }
 
+#menssage:focus {
+    background-color: #abe2eb;
+    outline: #50c1d2;
+    color: black;
+}
 .button {
     border-radius: 10px;
     height: 5vh;

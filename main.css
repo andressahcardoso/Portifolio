@@ -15,6 +15,7 @@ header {
     padding-left: 4vh;
     padding-right: 4vh;
     color: white;
+    height: 10vh;
 }
 
 .nav_options {
@@ -45,7 +46,7 @@ header {
 footer {
     background-color: #50c1d2;
     margin-top: 5%;
-    height: 8vh;
+    height: 9vh;
     padding: 1.5%;
 }
 
