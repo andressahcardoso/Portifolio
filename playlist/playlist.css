@@ -1,0 +1,47 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container_musicas{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* ALinhar no centro - HORIZONTAL */
+    align-content: center; /* Alinhar no centro - VERTICAL */
+    flex-wrap: wrap;  /* Alinhar no centro - VERTICAL */
+    gap: 20px;
+    border: 2px;
+    padding: 20px;
+} 
+
+header {
+    height: 10vh;
+    padding: 2vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.play_pause {
+    padding: 2vh;
+    font-size: 20px;
+}
+
+.Barra_Status_Inativo {
+    pointer-events: none;
+    background-color: #50c1d2;
+}
+
+.Barra_Status_Ativo {
+    pointer-events: none;
+    background-color: rgba(88, 234, 173, 1);
+}
